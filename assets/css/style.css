@@ -11,7 +11,7 @@
 }
 
 body{
-    font-family: 'Poppins','sans-serif';
+    font-family: 'Poppins', sans-serif;
 }
 
 h1{
@@ -43,6 +43,23 @@ h6{
     color: #D8D8D8;
 }
 
+button{
+    font-size: 0.8rem;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+button:hover{
+    background-color:darkmagenta;
+}
+
 /* NavBar */
 .navbar {
     font-size: 16px;
@@ -62,7 +79,7 @@ h6{
 .navbar i:hover,
 .navbar-light .navbar-nav .nav-link.active
 .navbar i:hover{
-    color: coral;
+    color: violet;
 }
 
 .navbar i {
