@@ -358,6 +358,29 @@ footer p{
 
 }
 
+.single-product input{
+    width: 45px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.single-product input:focus{
+    outline: none;
+}
+
+.single-product .buy-btn{
+    background-color: #000;
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+.single-product .buy-btn:hover{
+    background-color: violet;
+    color: #000;
+}
+
 
 /* End small img */
 
