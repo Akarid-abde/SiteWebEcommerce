@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
+
+/* End page index.html */
 .nav-buttons{
     margin-left: 60%;
 }
@@ -67,6 +69,7 @@ button:hover{
     padding-bottom: 2rem !important;
     top: 0;
     left: 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0,0.1);
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -273,6 +276,7 @@ hr{
 
 footer{
     background-color: #222222;
+    box-shadow: 10px 5px 10px 10px rgba(245, 241, 241, 0.998);
 }
 
 footer h5{
@@ -314,8 +318,48 @@ footer .copyright a:hover{
 
 }
 
+footer .copyright img{
+    width: 30%;
+}
+
 footer p{
     color: #fff;
 }
 /* End Footer */
+
+/*  Logo */
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+.navbar .brand{
+    color: darkorchid;
+    margin: 3px 5px;
+    font-size: 1.5rem;
+}
+
+/* End Logo */
+/* End page index.html */
+
+
+/*  page single-product.html */
+
+/* small img */
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 14%;
+    cursor: pointer;
+
+}
+
+
+/* End small img */
+
+/* End page single-product.html */
 
