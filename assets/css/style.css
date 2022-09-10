@@ -188,3 +188,134 @@ button:hover{
 
 
 /* End New */
+
+
+/* Featured*/
+
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img{
+    transition: 0.3s all;
+}
+
+.product:hover img{
+    opacity: 0.7;
+
+}
+
+.product .buy-btn{
+    background-color: darkorange;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .buy-btn{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+hr{
+    width: 30px;
+    height: 3px !important;
+    opacity: 1 !important;
+    background-color: darkorchid;
+}
+
+.star {
+    padding: 10px 0;
+}
+
+.star i{
+    font-size: 0.9rem;
+    color: gold;
+}
+/* End Featured */
+
+
+/*  Banner */
+
+#banner{
+    background-image: url('../img/cover.jpg');
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 80px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#banner h1{
+    color: darkmagenta;
+}
+
+#banner button{
+    background-color: violet;
+}
+
+#banner button:hover{
+    background-color: #1d1d1d;
+}
+
+/* End Banner */
+
+
+/*  Footer */
+
+footer{
+    background-color: #222222;
+}
+
+footer h5{
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+footer li{
+    padding-bottom: 4px;
+}
+
+footer li a{
+    font-size: 0.8rem;
+    color: #999;
+    text-decoration: none;
+}
+
+footer li a:hover{
+    color: #D8D8D8;
+}
+
+footer .copyright a{
+    color: #000;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    display: inline-block;
+    text-align:    center;
+    line-height: 38px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    margin: 0 5px;
+}
+
+footer .copyright a:hover{
+    color: white;
+    background-color: darkmagenta;
+
+}
+
+footer p{
+    color: #fff;
+}
+/* End Footer */
+
