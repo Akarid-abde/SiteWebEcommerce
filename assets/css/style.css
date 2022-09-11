@@ -471,3 +471,33 @@ th:last-child{
     color: #000;
 }
 /* End page Cart.html */
+
+
+
+/*  page Login.html */
+
+#login-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid darkviolet;
+}
+
+#login-form input{
+    width: 50%;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+#login-form #login-btn{
+    background-color: darkviolet;
+    color: #fff;
+}
+#login-form #regester-url{
+    color: darkviolet;
+
+}
+/* End  Login.html */
+
+
+
