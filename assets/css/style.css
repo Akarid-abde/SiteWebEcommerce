@@ -554,4 +554,73 @@ th:last-child{
 
 }
 
+/*   Orders*/
+
+.orders  table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders .product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.orders th{
+    text-align: left;
+    padding: 5px 10px;
+    color: white;
+    background-color: darkmagenta;
+}
+
+.orders th:nth-child(2){
+    text-align: right;
+}
+
+.orders td {
+    padding: 10px 20px; 
+}
+
+.cart td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
 /* End  Account.html */
+
+/*  Checkout.html */
+
+#checkout-form .checkout-small-element{
+    display: inline-block;
+    width: 48%;
+    margin: 10px auto;
+}
+
+#checkout-form .checkout-large-element{
+    width: 95%;
+
+}
+
+#checkout-form .checkout-btn-container{
+    margin: 10px;
+    text-align: right;
+    margin-right: 40px;
+
+}
+
+#checkout-form .checkout-btn{
+    color: #fff;
+    background-color: darkviolet;
+
+}
+/* End  Checkout.html */
+
+
+/*   Contact.html */
+
+#contact span{
+    color: darkviolet;
+}
+
+/* End  Contact.html */
