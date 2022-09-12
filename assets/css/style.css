@@ -189,8 +189,8 @@ button:hover{
     text-align: end;
 }
 
-
 /* End New */
+
 
 
 /* Featured*/
@@ -489,15 +489,69 @@ th:last-child{
     margin: 5px auto;
     border-radius: 5px;
 }
+
 #login-form #login-btn{
     background-color: darkviolet;
     color: #fff;
 }
+
 #login-form #regester-url{
     color: darkviolet;
-
 }
+
 /* End  Login.html */
 
 
+/*  Regester.html */
+#register-form{
+    width: 50%;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid darkviolet;
+}
 
+#register-form input{
+    width: 50%;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+#register-form #register-btn{
+    background-color: darkviolet;
+    color: #fff;
+}
+
+#register-form #login-url{
+    color: darkviolet;
+
+}
+
+/* End  Regester.html */
+
+
+
+/*  Account.html */
+
+#account-form{
+    width: 50%;
+    margin: 35px auto;
+    text-align: center;
+    padding: 20px;
+
+}
+#account-form input{
+    margin: 5px auto;
+}
+#account-form #change-pass-btn{
+    color:  #fff;
+    background-color: darkviolet;
+}
+
+#account-form #order-btn,#logout-btn{
+    color: darkorchid;
+    text-decoration: none;
+
+
+}
+
+/* End  Account.html */
