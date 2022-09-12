@@ -50,7 +50,6 @@
                 <a href="cart.html"><i class="fas fa-bag-shopping"></i></a>
                 <a href="account.html"><i class="fa-solid fa-user"></i></a>
               </li>
-
             </ul>
             
           </div>
